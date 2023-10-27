@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url("images/pexels-patrick-mclachlan-995764.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    background-color: rgba(57, 179,250,0.7);
+    background-blend-mode:hard-light;
+    font-size: 1.1rem;
+    font-family: 'poppins', sans-serif;
+    /* background-color: aquamarine; */
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+}
+#head{
+ font-size: 1.8rem;
+}
+#subheading{
+    font-size: 18px;
+    margin-top: 10px;
+}
+#content1{
+    width: 90%;
+    margin: auto;
+}
+form{
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+}
+form .box{
+    width: 98.5%;
+    height: 2.0rem;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+#option1 select{
+    width: 98.5%;
+    height: 2.0rem;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+/* #content2 textarea{
+    width: 99.5%;
+    height: 1250px;
+    position: relative;
+    bottom: 17px;
+} */
+button{
+    width: 98.5%;
+    height: 2.5rem;
+    position: relative;
+    top: 11px;
+    background-color: rgba(18,219,78);
+    border: none;
+    color: rgb(255 , 255 , 2555);
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+@media screen  and (max-width: 600px){
+    form{
+        width: 100%;
+        margin: auto;
+    }
+}
